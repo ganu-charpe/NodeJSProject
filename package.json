@@ -1,0 +1,22 @@
+{
+  "name": "nodejsproject",
+  "version": "1.0.0",
+  "description": "Basic NodeJS Project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon path.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganu-charpe/NodeJSProject.git"
+  },
+  "author": "Ganesh Charpe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganu-charpe/NodeJSProject/issues"
+  },
+  "homepage": "https://github.com/ganu-charpe/NodeJSProject#readme",
+  "dependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
