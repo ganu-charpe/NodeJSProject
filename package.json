@@ -1,10 +1,12 @@
 {
-  "name": "nodejsproject",
+  "name": "node-ganesh-2026",
   "version": "1.0.0",
-  "description": "Basic NodeJS Project",
+  "description": "Node JS project",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon path.js"
+    "start": "node server.js",
+    "dev": "nodemon fsCurd.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/ganu-charpe/NodeJSProject#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "nodemon": "^3.1.11"
   }
 }
